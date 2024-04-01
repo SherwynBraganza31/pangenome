@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+RSGAB00804:1-1164    -            388 981870at2            -            268     3e-78  260.4   9.9   1   2     9e-40   3.3e-36  122.6   0.2     9   139     1   168     1   179 0.85 RSGAB00804_1 # 1 # 1164 # 1 # ID=3324_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.570
+RSGAB00804:1-1164    -            388 981870at2            -            268     3e-78  260.4   9.9   2   2   4.6e-45   1.7e-41  139.9   4.5   140   267   202   360   195   361 0.86 RSGAB00804_1 # 1 # 1164 # 1 # ID=3324_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.570
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/busco_downloads/lineages/bacteria_odb10/hmms/981870at2.hmm
+# Target file:     BUSCO/cnambio1/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout BUSCO/cnambio1/run_bacteria_odb10/hmmer_output/981870at2.out --cpu 1 /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/busco_downloads/lineages/bacteria_odb10/hmms/981870at2.hmm BUSCO/cnambio1/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta
+# Date:            Fri Mar  8 07:38:36 2024
+# [ok]

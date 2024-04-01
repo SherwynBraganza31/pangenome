@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+RSGAB02842:1-1410    -            470 267682at2            -            304   3.6e-81  270.3   5.2   1   1   8.9e-79   5.5e-76  253.3   5.2     7   295    25   434    12   457 0.78 RSGAB02842_1 # 1 # 1410 # 1 # ID=834_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.560
+RSGAB02954:1-1800    -            600 267682at2            -            304   0.00012   19.1   0.2   1   4     0.011         7    3.3   0.0     9    29    17    37     8    47 0.84 RSGAB02954_1 # 1 # 1800 # 1 # ID=549_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.519
+RSGAB02954:1-1800    -            600 267682at2            -            304   0.00012   19.1   0.2   2   4   6.2e-05     0.038   10.8   0.0    29    73    59   112    40   133 0.76 RSGAB02954_1 # 1 # 1800 # 1 # ID=549_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.519
+RSGAB02954:1-1800    -            600 267682at2            -            304   0.00012   19.1   0.2   3   4     0.095        58    0.3   0.0   110   140   187   216   168   221 0.88 RSGAB02954_1 # 1 # 1800 # 1 # ID=549_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.519
+RSGAB02954:1-1800    -            600 267682at2            -            304   0.00012   19.1   0.2   4   4       2.2   1.3e+03   -4.2   0.0   162   186   358   382   345   386 0.75 RSGAB02954_1 # 1 # 1800 # 1 # ID=549_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.519
+RSGAB03521:1-690     -            230 267682at2            -            304   0.00065   16.6   0.0   1   1   1.9e-06    0.0011   15.8   0.0   223   256   189   222   179   226 0.94 RSGAB03521_1 # 1 # 690 # 1 # ID=195_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.557
+RSGAB00899:1-1251    -            417 267682at2            -            304    0.0016   15.3   0.0   1   2       1.6   9.7e+02   -3.7   0.0   170   203    33    67    23    70 0.77 RSGAB00899_1 # 1 # 1251 # 1 # ID=2707_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.352
+RSGAB00899:1-1251    -            417 267682at2            -            304    0.0016   15.3   0.0   2   2   5.6e-06    0.0035   14.2   0.1   218   260   293   335   268   352 0.82 RSGAB00899_1 # 1 # 1251 # 1 # ID=2707_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.352
+RSGAB03064:1-945     -            315 267682at2            -            304    0.0034   14.2   0.1   1   2      0.93   5.8e+02   -2.9   0.0    75    93   113   131   107   144 0.56 RSGAB03064_1 # 1 # 945 # 1 # ID=1068_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.492
+RSGAB03064:1-945     -            315 267682at2            -            304    0.0034   14.2   0.1   2   2   1.2e-05    0.0075   13.1   0.1   206   268   196   258   167   272 0.88 RSGAB03064_1 # 1 # 945 # 1 # ID=1068_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.492
+RSGAB01989:1-537     -            179 267682at2            -            304    0.0071   13.2   0.1   1   1   1.4e-05    0.0088   12.9   0.1   208   252    80   124    70   174 0.86 RSGAB01989_1 # 1 # 537 # 1 # ID=1402_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.525
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/busco_downloads/lineages/bacteria_odb10/hmms/267682at2.hmm
+# Target file:     BUSCO/cnambio1/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout BUSCO/cnambio1/run_bacteria_odb10/hmmer_output/267682at2.out --cpu 1 /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/busco_downloads/lineages/bacteria_odb10/hmms/267682at2.hmm BUSCO/cnambio1/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta
+# Date:            Fri Mar  8 07:38:35 2024
+# [ok]

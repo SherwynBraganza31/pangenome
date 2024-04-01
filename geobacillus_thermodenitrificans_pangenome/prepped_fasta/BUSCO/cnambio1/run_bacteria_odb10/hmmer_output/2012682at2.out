@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+RSGAB03003:1-306     -            102 2012682at2           -             88   8.5e-44  145.4   0.9   1   1   8.8e-47   1.6e-43  144.5   0.9     1    88     4   101     4   101 0.93 RSGAB03003_1 # 1 # 306 # 1 # ID=501_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.435
+RSGAB03638:1-237     -             79 2012682at2           -             88     0.043   11.8   0.0   1   1   2.6e-05     0.048   11.6   0.0    29    72    28    71     4    74 0.94 RSGAB03638_1 # 1 # 237 # 1 # ID=78_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.544
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/busco_downloads/lineages/bacteria_odb10/hmms/2012682at2.hmm
+# Target file:     BUSCO/cnambio1/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout BUSCO/cnambio1/run_bacteria_odb10/hmmer_output/2012682at2.out --cpu 1 /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/busco_downloads/lineages/bacteria_odb10/hmms/2012682at2.hmm BUSCO/cnambio1/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta
+# Date:            Fri Mar  8 07:38:35 2024
+# [ok]

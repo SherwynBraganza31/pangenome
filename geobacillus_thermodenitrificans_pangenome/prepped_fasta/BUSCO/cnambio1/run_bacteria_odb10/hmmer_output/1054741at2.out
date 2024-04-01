@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+RSGAB00451:1-1113    -            371 1054741at2           -            333  2.9e-139  461.4   0.0   1   1  6.2e-142  3.3e-139  461.2   0.0     3   331     7   360     5   362 0.94 RSGAB00451_1 # 1 # 1113 # 1 # ID=3104_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.521
+RSGAB00418:1-738     -            246 1054741at2           -            333   1.6e-08   31.7   0.1   1   2   4.5e-10   2.4e-07   27.8   0.1     7    76    25    87    22    98 0.88 RSGAB00418_1 # 1 # 738 # 1 # ID=3617_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.512
+RSGAB00418:1-738     -            246 1054741at2           -            333   1.6e-08   31.7   0.1   2   2     0.041        22    1.6   0.0   157   176   159   178   157   191 0.87 RSGAB00418_1 # 1 # 738 # 1 # ID=3617_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.512
+RSGAB00265:1-1218    -            406 1054741at2           -            333   3.2e-07   27.4   0.0   1   1   8.4e-10   4.4e-07   26.9   0.0     3    78     3    70     1   116 0.80 RSGAB00265_1 # 1 # 1218 # 1 # ID=3177_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.525
+RSGAB02171:1-669     -            223 1054741at2           -            333   2.7e-06   24.3   0.0   1   1   8.7e-09   4.6e-06   23.5   0.0     2    72     4    67     3    71 0.92 RSGAB02171_1 # 1 # 669 # 1 # ID=1950_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.526
+RSGAB02861:1-1740    -            580 1054741at2           -            333   8.1e-06   22.7   0.1   1   1     3e-08   1.6e-05   21.8   0.1     4    36   286   319   284   355 0.79 RSGAB02861_1 # 1 # 1740 # 1 # ID=816_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.499
+RSGAB01111:1-822     -            274 1054741at2           -            333   1.1e-05   22.2   0.0   1   1     4e-08   2.1e-05   21.4   0.0     3    74    19    84    17    98 0.78 RSGAB01111_1 # 1 # 822 # 1 # ID=2461_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.426
+RSGAB00247:1-1209    -            403 1054741at2           -            333   0.00034   17.4   0.0   1   2     3e-06    0.0016   15.2   0.0     5    40   181   216   178   266 0.70 RSGAB00247_1 # 1 # 1209 # 1 # ID=3195_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.496
+RSGAB00247:1-1209    -            403 1054741at2           -            333   0.00034   17.4   0.0   2   2      0.22   1.2e+02   -0.8   0.0   154   177   312   335   295   362 0.80 RSGAB00247_1 # 1 # 1209 # 1 # ID=3195_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.496
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/busco_downloads/lineages/bacteria_odb10/hmms/1054741at2.hmm
+# Target file:     BUSCO/cnambio1/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout BUSCO/cnambio1/run_bacteria_odb10/hmmer_output/1054741at2.out --cpu 1 /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/busco_downloads/lineages/bacteria_odb10/hmms/1054741at2.hmm BUSCO/cnambio1/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta
+# Date:            Fri Mar  8 07:38:32 2024
+# [ok]

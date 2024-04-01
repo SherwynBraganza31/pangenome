@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2023-09-26">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="partition" type="string" />
+      <attribute id="1" title="occurrence" type="long" />
+      <attribute id="2" title="name" type="string" />
+    </attributes>
+    <nodes>
+      <node id="HLMLLCKC_01344" label="HLMLLCKC_01344">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_01345" label="HLMLLCKC_01345">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_01346" label="HLMLLCKC_01346">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_01886" label="FDKLAMFJ_01886">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="gnl|Prokka|gelc_04617" label="gnl|Prokka|gelc_04617">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03584" label="AHOIKHHK_03584">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_03059" label="HLMLLCKC_03059">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="btuD_12" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_03060" label="HLMLLCKC_03060">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_00190" label="FLBMOKII_00190">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="msbA_2" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_03360" label="HLMLLCKC_03360">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="MEBKDNAM_00701" label="MEBKDNAM_00701">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02990" label="AHOIKHHK_02990">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="trpS_2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02989" label="AHOIKHHK_02989">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="gnl|Prokka|gelc_03545" label="gnl|Prokka|gelc_03545">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02345" label="FDKLAMFJ_02345">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02988" label="AHOIKHHK_02988">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="glmS" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02987" label="AHOIKHHK_02987">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="glmM" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02986" label="AHOIKHHK_02986">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="cdaR" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_00186" label="FLBMOKII_00186">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_01543" label="FDKLAMFJ_01543">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_01343" label="HLMLLCKC_01343">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="gsiD_1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="HLMLLCKC_01344" target="HLMLLCKC_01345" weight="5.333333333333333" />
+      <edge id="1" source="HLMLLCKC_01344" target="HLMLLCKC_01343" weight="4.333333333333333" />
+      <edge id="2" source="HLMLLCKC_01345" target="HLMLLCKC_01346" weight="5.0" />
+      <edge id="3" source="HLMLLCKC_01345" target="FDKLAMFJ_01543" weight="4.333333333333333" />
+      <edge id="4" source="HLMLLCKC_01346" target="FDKLAMFJ_01886" weight="5.333333333333333" />
+      <edge id="5" source="HLMLLCKC_01346" target="FDKLAMFJ_01543" weight="4.333333333333333" />
+      <edge id="6" source="FDKLAMFJ_01886" target="gnl|Prokka|gelc_04617" weight="5.333333333333333" />
+      <edge id="7" source="gnl|Prokka|gelc_04617" target="AHOIKHHK_03584" weight="5.0" />
+      <edge id="8" source="gnl|Prokka|gelc_04617" target="AHOIKHHK_02990" weight="1.3333333333333333" />
+      <edge id="9" source="AHOIKHHK_03584" target="HLMLLCKC_03059" weight="5.0" />
+      <edge id="10" source="HLMLLCKC_03059" target="HLMLLCKC_03060" weight="5.0" />
+      <edge id="11" source="HLMLLCKC_03060" target="FLBMOKII_00190" weight="5.0" />
+      <edge id="12" source="FLBMOKII_00190" target="HLMLLCKC_03360" weight="5.0" />
+      <edge id="13" source="HLMLLCKC_03360" target="MEBKDNAM_00701" weight="5.0" />
+      <edge id="14" source="MEBKDNAM_00701" target="AHOIKHHK_02990" weight="5.0" />
+      <edge id="15" source="AHOIKHHK_02990" target="AHOIKHHK_02989" weight="5.0" />
+      <edge id="16" source="AHOIKHHK_02990" target="FLBMOKII_00186" weight="4.333333333333333" />
+      <edge id="17" source="AHOIKHHK_02989" target="AHOIKHHK_02989" weight="4.666666666666667" />
+      <edge id="18" source="AHOIKHHK_02989" target="gnl|Prokka|gelc_03545" weight="4.666666666666667" />
+      <edge id="19" source="AHOIKHHK_02989" target="AHOIKHHK_02988" weight="4.666666666666667" />
+      <edge id="20" source="AHOIKHHK_02989" target="FLBMOKII_00186" weight="4.333333333333333" />
+      <edge id="21" source="gnl|Prokka|gelc_03545" target="FDKLAMFJ_02345" weight="4.666666666666667" />
+      <edge id="22" source="FDKLAMFJ_02345" target="FDKLAMFJ_02345" weight="4.666666666666667" />
+      <edge id="23" source="FDKLAMFJ_02345" target="AHOIKHHK_02988" weight="4.666666666666667" />
+      <edge id="24" source="AHOIKHHK_02988" target="AHOIKHHK_02988" weight="4.666666666666667" />
+      <edge id="25" source="AHOIKHHK_02988" target="AHOIKHHK_02987" weight="5.333333333333333" />
+      <edge id="26" source="AHOIKHHK_02987" target="AHOIKHHK_02986" weight="4.666666666666667" />
+    </edges>
+  </graph>
+</gexf>

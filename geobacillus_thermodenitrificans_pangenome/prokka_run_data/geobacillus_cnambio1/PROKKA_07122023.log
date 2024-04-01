@@ -1,0 +1,99 @@
+[13:53:00] This is prokka 1.14.6
+[13:53:00] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[13:53:00] Homepage is https://github.com/tseemann/prokka
+[13:53:00] Local time is Wed Jul 12 13:53:00 2023
+[13:53:00] You are sbraganza
+[13:53:00] Operating system is linux
+[13:53:00] You have BioPerl 1.007002
+[13:53:00] System has 28 cores.
+[13:53:00] Will use maximum of 8 cores.
+[13:53:00] Annotating as >>> Bacteria <<<
+[13:53:00] Generating locus_tag from '/home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/geobacillus_cnambio1.fna' contents.
+[13:53:00] Setting --locustag HKDCCJOG from MD5 14dcc38091b9825ef5e5641f357643b5
+[13:53:00] Creating new output folder: prokka_run_data/geobacillus_cnambio1/
+[13:53:00] Running: mkdir -p prokka_run_data\/geobacillus_cnambio1\/
+[13:53:00] Using filename prefix: PROKKA_07122023.XXX
+[13:53:00] Setting HMMER_NCPU=1
+[13:53:00] Writing log to: prokka_run_data/geobacillus_cnambio1//PROKKA_07122023.log
+[13:53:00] Command: /home/sbraganza/prokka/bin/prokka --outdir prokka_run_data/geobacillus_cnambio1/ --genus geobacillus --kingdom Bacteria /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/geobacillus_cnambio1.fna --force
+[13:53:00] Appending to PATH: /home/sbraganza/prokka/bin/../binaries/linux
+[13:53:00] Appending to PATH: /home/sbraganza/prokka/bin/../binaries/linux/../common
+[13:53:00] Appending to PATH: /home/sbraganza/prokka/bin
+[13:53:00] Looking for 'aragorn' - found /usr/bin/aragorn
+[13:53:00] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[13:53:00] Looking for 'blastp' - found /usr/bin/blastp
+[13:53:00] Determined blastp version is 002014 from 'blastp: 2.14.0+'
+[13:53:00] Looking for 'cmpress' - found /usr/bin/cmpress
+[13:53:00] Determined cmpress version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[13:53:00] Looking for 'cmscan' - found /usr/bin/cmscan
+[13:53:00] Determined cmscan version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[13:53:00] Looking for 'egrep' - found /bin/egrep
+[13:53:00] Looking for 'find' - found /usr/bin/find
+[13:53:00] Looking for 'grep' - found /bin/grep
+[13:53:00] Looking for 'hmmpress' - found /usr/bin/hmmpress
+[13:53:00] Determined hmmpress version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
+[13:53:00] Looking for 'hmmscan' - found /usr/bin/hmmscan
+[13:53:00] Determined hmmscan version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
+[13:53:00] Looking for 'java' - found /usr/bin/java
+[13:53:00] Looking for 'makeblastdb' - found /usr/bin/makeblastdb
+[13:53:01] Determined makeblastdb version is 002014 from 'makeblastdb: 2.14.0+'
+[13:53:01] Looking for 'minced' - found /home/sbraganza/prokka/bin/../binaries/linux/../common/minced
+[13:53:01] Determined minced version is 002000 from 'minced 0.2.0'
+[13:53:01] Looking for 'parallel' - found /home/sbraganza/prokka/bin/../binaries/linux/../common/parallel
+[13:53:01] Determined parallel version is 20150122 from 'GNU parallel 20150122'
+[13:53:01] Looking for 'prodigal' - found /usr/bin/prodigal
+[13:53:01] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[13:53:01] Looking for 'prokka-genbank_to_fasta_db' - found /home/sbraganza/prokka/bin/prokka-genbank_to_fasta_db
+[13:53:01] Looking for 'sed' - found /bin/sed
+[13:53:01] Looking for 'tbl2asn' - found /home/sbraganza/prokka/bin/../binaries/linux/tbl2asn
+[13:53:01] Determined tbl2asn version is 025008 from 'tbl2asn 25.8   arguments:'
+[13:53:01] Using genetic code table 11.
+[13:53:01] Loading and checking input file: /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/geobacillus_cnambio1.fna
+[13:53:01] Wrote 3729 contigs totalling 3154014 bp.
+[13:53:01] Predicting tRNAs and tmRNAs
+[13:53:01] Running: aragorn -l -gc11  -w prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.fna
+[13:53:02] Found 0 tRNAs
+[13:53:02] Predicting Ribosomal RNAs
+[13:53:02] You need either Barrnap or RNAmmer installed to predict rRNAs!
+[13:53:02] Skipping ncRNA search, enable with --rfam if desired.
+[13:53:02] Total of 0 tRNA + rRNA features
+[13:53:02] Searching for CRISPR repeats
+[13:53:02] Found 0 CRISPRs
+[13:53:02] Predicting coding sequences
+[13:53:02] Contigs total 3154014 bp, so using single mode
+[13:53:02] Running: prodigal -i prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.fna -c -m -g 11 -p single -f sco -q
+[13:53:10] Found 14 CDS
+[13:53:10] Connecting features back to sequences
+[13:53:10] Not using genus-specific database. Try --usegenus to enable it.
+[13:53:10] Annotating CDS, please be patient.
+[13:53:10] Will use 8 CPUs for similarity searching.
+[13:53:10] There are still 14 unannotated CDS left (started with 14)
+[13:53:10] Will use blast to search against /home/sbraganza/prokka/db/kingdom/Bacteria/IS with 8 CPUs
+[13:53:10] Running: cat prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.IS\.tmp\.1349\.faa | parallel --gnu --plain -j 8 --block 196 --recstart '>' --pipe blastp -query - -db /home/sbraganza/prokka/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.IS\.tmp\.1349\.blast 2> /dev/null
+[13:53:12] Deleting unwanted file: prokka_run_data/geobacillus_cnambio1//PROKKA_07122023.IS.tmp.1349.faa
+[13:53:12] Deleting unwanted file: prokka_run_data/geobacillus_cnambio1//PROKKA_07122023.IS.tmp.1349.blast
+[13:53:12] There are still 14 unannotated CDS left (started with 14)
+[13:53:12] Will use blast to search against /home/sbraganza/prokka/db/kingdom/Bacteria/AMR with 8 CPUs
+[13:53:12] Running: cat prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.AMR\.tmp\.1349\.faa | parallel --gnu --plain -j 8 --block 196 --recstart '>' --pipe blastp -query - -db /home/sbraganza/prokka/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.AMR\.tmp\.1349\.blast 2> /dev/null
+[13:53:13] Deleting unwanted file: prokka_run_data/geobacillus_cnambio1//PROKKA_07122023.AMR.tmp.1349.faa
+[13:53:13] Deleting unwanted file: prokka_run_data/geobacillus_cnambio1//PROKKA_07122023.AMR.tmp.1349.blast
+[13:53:13] There are still 14 unannotated CDS left (started with 14)
+[13:53:13] Will use blast to search against /home/sbraganza/prokka/db/kingdom/Bacteria/sprot with 8 CPUs
+[13:53:13] Running: cat prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.sprot\.tmp\.1349\.faa | parallel --gnu --plain -j 8 --block 196 --recstart '>' --pipe blastp -query - -db /home/sbraganza/prokka/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.sprot\.tmp\.1349\.blast 2> /dev/null
+[13:53:14] Deleting unwanted file: prokka_run_data/geobacillus_cnambio1//PROKKA_07122023.sprot.tmp.1349.faa
+[13:53:14] Deleting unwanted file: prokka_run_data/geobacillus_cnambio1//PROKKA_07122023.sprot.tmp.1349.blast
+[13:53:14] There are still 14 unannotated CDS left (started with 14)
+[13:53:14] Will use hmmer3 to search against /home/sbraganza/prokka/db/hmm/HAMAP.hmm with 8 CPUs
+[13:53:14] Running: cat prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.HAMAP\.hmm\.tmp\.1349\.faa | parallel --gnu --plain -j 8 --block 196 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/sbraganza/prokka/db/hmm/HAMAP.hmm /dev/stdin > prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.HAMAP\.hmm\.tmp\.1349\.hmmer3 2> /dev/null
+[13:53:15] Deleting unwanted file: prokka_run_data/geobacillus_cnambio1//PROKKA_07122023.HAMAP.hmm.tmp.1349.faa
+[13:53:15] Deleting unwanted file: prokka_run_data/geobacillus_cnambio1//PROKKA_07122023.HAMAP.hmm.tmp.1349.hmmer3
+[13:53:15] Labelling remaining 14 proteins as 'hypothetical protein'
+[13:53:15] Found 0 unique /gene codes.
+[13:53:15] Fixed 0 colliding /gene names.
+[13:53:15] Adding /locus_tag identifiers
+[13:53:15] Assigned 14 locus_tags to CDS and RNA features.
+[13:53:15] Writing outputs to prokka_run_data/geobacillus_cnambio1//
+[13:53:15] Generating annotation statistics file
+[13:53:15] Generating Genbank and Sequin files
+[13:53:15] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.err -i prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.fsa 2> /dev/null
+[13:53:17] Could not run command: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.err -i prokka_run_data\/geobacillus_cnambio1\/\/PROKKA_07122023\.fsa 2> /dev/null

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+RSGAB01845:1-1038    -            346 1080436at2           -            270  4.5e-122  404.5   2.1   1   1  6.4e-125  5.9e-122  404.1   2.1     2   264     6   310     5   319 0.91 RSGAB01845_1 # 1 # 1038 # 1 # ID=2285_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.529
+RSGAB03029:1-1434    -            478 1080436at2           -            270   1.5e-05   22.4   0.4   1   1   2.4e-08   2.2e-05   21.9   0.4    26   166    94   235    86   277 0.81 RSGAB03029_1 # 1 # 1434 # 1 # ID=475_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.533
+RSGAB03474:1-1305    -            435 1080436at2           -            270   0.00071   16.9   0.0   1   1   1.7e-06    0.0016   15.7   0.0    24    80   168   224   164   240 0.81 RSGAB03474_1 # 1 # 1305 # 1 # ID=661_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.422
+RSGAB01497:1-879     -            293 1080436at2           -            270     0.016   12.4   0.0   1   1     3e-05     0.028   11.7   0.0    42    83    24    66    15    75 0.86 RSGAB01497_1 # 1 # 879 # 1 # ID=2160_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.510
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/busco_downloads/lineages/bacteria_odb10/hmms/1080436at2.hmm
+# Target file:     BUSCO/cnambio1/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout BUSCO/cnambio1/run_bacteria_odb10/hmmer_output/1080436at2.out --cpu 1 /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/busco_downloads/lineages/bacteria_odb10/hmms/1080436at2.hmm BUSCO/cnambio1/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta
+# Date:            Fri Mar  8 07:38:33 2024
+# [ok]

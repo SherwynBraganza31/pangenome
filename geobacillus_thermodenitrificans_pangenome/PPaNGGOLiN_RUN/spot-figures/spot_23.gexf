@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2023-09-22">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="partition" type="string" />
+      <attribute id="1" title="occurrence" type="long" />
+      <attribute id="2" title="name" type="string" />
+    </attributes>
+    <nodes>
+      <node id="HLMLLCKC_00071" label="HLMLLCKC_00071">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_00072" label="HLMLLCKC_00072">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02309" label="FDKLAMFJ_02309">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_02891" label="NCBEONCI_02891">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_02892" label="NCBEONCI_02892">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="rapA_3" />
+        </attvalues>
+      </node>
+      <node id="gnl|Prokka|gelc_04117" label="gnl|Prokka|gelc_04117">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="MEBKDNAM_03338" label="MEBKDNAM_03338">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="gnl|Prokka|gelc_04119" label="gnl|Prokka|gelc_04119">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_00078" label="HLMLLCKC_00078">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_00079" label="HLMLLCKC_00079">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="gnl|Prokka|gelc_04123" label="gnl|Prokka|gelc_04123">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_01843" label="AHOIKHHK_01843">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_00081" label="HLMLLCKC_00081">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_02894" label="NCBEONCI_02894">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_02895" label="NCBEONCI_02895">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="gnl|Prokka|gelc_04132" label="gnl|Prokka|gelc_04132">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02320" label="FDKLAMFJ_02320">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="brnQ" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="HLMLLCKC_00071" target="HLMLLCKC_00072" weight="2.0" />
+      <edge id="1" source="HLMLLCKC_00072" target="HLMLLCKC_00072" weight="2.0" />
+      <edge id="2" source="HLMLLCKC_00072" target="FDKLAMFJ_02309" weight="2.0" />
+      <edge id="3" source="FDKLAMFJ_02309" target="NCBEONCI_02891" weight="2.0" />
+      <edge id="4" source="NCBEONCI_02891" target="NCBEONCI_02892" weight="2.8" />
+      <edge id="5" source="NCBEONCI_02892" target="gnl|Prokka|gelc_04117" weight="2.0" />
+      <edge id="6" source="NCBEONCI_02892" target="MEBKDNAM_03338" weight="1.4" />
+      <edge id="7" source="gnl|Prokka|gelc_04117" target="MEBKDNAM_03338" weight="2.0" />
+      <edge id="8" source="MEBKDNAM_03338" target="gnl|Prokka|gelc_04119" weight="2.0" />
+      <edge id="9" source="MEBKDNAM_03338" target="HLMLLCKC_00078" weight="1.4" />
+      <edge id="10" source="gnl|Prokka|gelc_04119" target="HLMLLCKC_00078" weight="2.0" />
+      <edge id="11" source="HLMLLCKC_00078" target="HLMLLCKC_00079" weight="2.8" />
+      <edge id="12" source="HLMLLCKC_00079" target="HLMLLCKC_00079" weight="2.0" />
+      <edge id="13" source="HLMLLCKC_00079" target="gnl|Prokka|gelc_04123" weight="2.2" />
+      <edge id="14" source="HLMLLCKC_00079" target="AHOIKHHK_01843" weight="1.2" />
+      <edge id="15" source="gnl|Prokka|gelc_04123" target="AHOIKHHK_01843" weight="2.2" />
+      <edge id="16" source="AHOIKHHK_01843" target="AHOIKHHK_01843" weight="2.0" />
+      <edge id="17" source="AHOIKHHK_01843" target="HLMLLCKC_00081" weight="2.8" />
+      <edge id="18" source="HLMLLCKC_00081" target="NCBEONCI_02894" weight="2.8" />
+      <edge id="19" source="NCBEONCI_02894" target="NCBEONCI_02894" weight="2.2" />
+      <edge id="20" source="NCBEONCI_02894" target="NCBEONCI_02895" weight="1.4" />
+      <edge id="21" source="NCBEONCI_02895" target="gnl|Prokka|gelc_04132" weight="1.0" />
+      <edge id="22" source="NCBEONCI_02895" target="FDKLAMFJ_02320" weight="1.2" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2023-07-12">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="partition" type="string" />
+      <attribute id="1" title="occurrence" type="long" />
+      <attribute id="2" title="name" type="string" />
+    </attributes>
+    <nodes>
+      <node id="FDKLAMFJ_03618" label="FDKLAMFJ_03618">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_03406" label="NCBEONCI_03406">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_03407" label="NCBEONCI_03407">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_03408" label="NCBEONCI_03408">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_03409" label="NCBEONCI_03409">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_03410" label="NCBEONCI_03410">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_02902" label="FLBMOKII_02902">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_03339" label="IJIGFOAD_03339">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="vgb" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_03609" label="FLBMOKII_03609">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="xerC_5" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_02177" label="FLBMOKII_02177">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="MEBKDNAM_02057" label="MEBKDNAM_02057">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03076" label="KGENGAEB_03076">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="bcrA_4" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="FDKLAMFJ_03618" target="NCBEONCI_03406" weight="2.6666666666666665" />
+      <edge id="1" source="NCBEONCI_03406" target="NCBEONCI_03407" weight="2.6666666666666665" />
+      <edge id="2" source="NCBEONCI_03407" target="NCBEONCI_03408" weight="2.6666666666666665" />
+      <edge id="3" source="NCBEONCI_03408" target="NCBEONCI_03409" weight="2.6666666666666665" />
+      <edge id="4" source="NCBEONCI_03409" target="NCBEONCI_03410" weight="2.6666666666666665" />
+      <edge id="5" source="NCBEONCI_03410" target="FLBMOKII_02902" weight="2.0" />
+      <edge id="6" source="NCBEONCI_03410" target="IJIGFOAD_03339" weight="2.0" />
+      <edge id="7" source="FLBMOKII_02902" target="IJIGFOAD_03339" weight="2.0" />
+      <edge id="8" source="IJIGFOAD_03339" target="FLBMOKII_03609" weight="2.6666666666666665" />
+      <edge id="9" source="FLBMOKII_03609" target="FLBMOKII_02177" weight="2.6666666666666665" />
+      <edge id="10" source="FLBMOKII_02177" target="MEBKDNAM_02057" weight="2.6666666666666665" />
+      <edge id="11" source="MEBKDNAM_02057" target="KGENGAEB_03076" weight="2.6666666666666665" />
+    </edges>
+  </graph>
+</gexf>

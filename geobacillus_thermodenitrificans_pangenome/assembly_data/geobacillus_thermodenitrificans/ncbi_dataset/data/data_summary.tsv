@@ -1,0 +1,9 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Geobacillus thermodenitrificans NG80-2		strain: NG80-2	420246	ASM1574v1	GCF_000015745.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	3550319	3608012	2007-03-29	3665	PRJNA18655	SAMN02603899
+Geobacillus thermodenitrificans subsp. thermodenitrificans DSM 465		strain: DSM 465	1413215	DSM465V1.0	GCF_000496575.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Contig	264274	3400546	2013-11-12	3473	PRJNA224955	SAMN02386948
+Geobacillus thermodenitrificans		strain: KCTC3902	33940	ASM207206v1	GCF_002072065.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	3505276	3505276	2017-03-23	3567	PRJNA347632	SAMN05894115
+Geobacillus thermodenitrificans		strain: T12	33940	ASM211962v1	GCF_002119625.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	3640707	3756491	2017-05-09	3779	PRJNA377291	SAMN06459234
+Geobacillus thermodenitrificans		strain: ID-1	33940	ASM270656v1	GCF_002706565.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	3674745	3765962	2017-10-25	3797	PRJNA347629	SAMN05893589
+Geobacillus thermodenitrificans		strain: JSC_T9a	33940	ASM281000v1	GCF_002810005.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	722095	3505729	2017-12-04	3561	PRJNA354604	SAMN08056007
+Geobacillus thermodenitrificans		strain: OS27	33940	ASM306150v1	GCF_003061505.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Contig	96659	3443056	2018-04-14	3558	PRJNA421250	SAMN08135953
+Geobacillus thermodenitrificans		strain: K1041	33940	ASM2169695v1	GCF_021696955.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Contig	58234	3525886	2022-01-28	3665	PRJNA636915	SAMN15089895

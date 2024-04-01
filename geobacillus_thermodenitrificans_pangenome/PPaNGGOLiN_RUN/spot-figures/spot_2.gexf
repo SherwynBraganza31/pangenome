@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2023-07-12">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="partition" type="string" />
+      <attribute id="1" title="occurrence" type="long" />
+      <attribute id="2" title="name" type="string" />
+    </attributes>
+    <nodes>
+      <node id="IJIGFOAD_00035" label="IJIGFOAD_00035">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="feoB_3" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_00034" label="IJIGFOAD_00034">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02330" label="AHOIKHHK_02330">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="panS_1" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_00032" label="IJIGFOAD_00032">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02332" label="AHOIKHHK_02332">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02333" label="AHOIKHHK_02333">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02334" label="AHOIKHHK_02334">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="ugtP_1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02335" label="AHOIKHHK_02335">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="gmuR" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_00141" label="FDKLAMFJ_00141">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="gmuD_1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_00140" label="FDKLAMFJ_00140">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="gmuC" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_00139" label="FDKLAMFJ_00139">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="gmuA" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_00036" label="IJIGFOAD_00036">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_03494" label="FDKLAMFJ_03494">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_01779" label="FDKLAMFJ_01779">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="IJIGFOAD_00035" target="IJIGFOAD_00034" weight="1.5" />
+      <edge id="1" source="IJIGFOAD_00035" target="IJIGFOAD_00036" weight="1.0" />
+      <edge id="2" source="IJIGFOAD_00034" target="AHOIKHHK_02330" weight="1.375" />
+      <edge id="3" source="IJIGFOAD_00034" target="FDKLAMFJ_03494" weight="1.0" />
+      <edge id="4" source="AHOIKHHK_02330" target="IJIGFOAD_00032" weight="1.5" />
+      <edge id="5" source="AHOIKHHK_02330" target="FDKLAMFJ_01779" weight="1.0" />
+      <edge id="6" source="IJIGFOAD_00032" target="AHOIKHHK_02332" weight="1.5" />
+      <edge id="7" source="AHOIKHHK_02332" target="AHOIKHHK_02333" weight="1.5" />
+      <edge id="8" source="AHOIKHHK_02333" target="AHOIKHHK_02334" weight="1.5" />
+      <edge id="9" source="AHOIKHHK_02334" target="AHOIKHHK_02335" weight="1.5" />
+      <edge id="10" source="AHOIKHHK_02335" target="FDKLAMFJ_00141" weight="1.5" />
+      <edge id="11" source="FDKLAMFJ_00141" target="FDKLAMFJ_00140" weight="1.5" />
+      <edge id="12" source="FDKLAMFJ_00140" target="FDKLAMFJ_00139" weight="1.5" />
+      <edge id="13" source="FDKLAMFJ_03494" target="FDKLAMFJ_01779" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>
