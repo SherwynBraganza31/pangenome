@@ -32,17 +32,22 @@ class ASMStatParser:
     convertJSONlines()
     """
     def __init__(self, source_dir: str):
+        # source directory error checking
         self.source_dir = source_dir + '/' if source_dir[-1] != '/' else source_dir
+        # TODO: check if source directory has a the correct dataset folder tree
+        # source_dir -> ncbi_dataset -> data -> (assembly_data_report.jsonl, dataset_summary.tsv, dataset_catalog.json)
+
+
         self.jsonlist = list(open(self.source_dir + 'assembly_data_report.jsonl', 'r', encoding='utf-8'))
         self.curated_genome_frame = None
 
     def extract_checkM_stats(self):
         """
             Extract the checkM scores from assembly_data_report.jsonl and fill it into
-            modded_data_summarty.csv
+            data_summary_v2.csv
             :return:
         """
-        dataframe = pd.read_csv(self.source_dir + 'modded_data_summary.csv')
+        dataframe = pd.read_csv(self.source_dir + 'dataset_summary_v2.csv')
         dataframe.set_index('Assembly Accession', inplace=True)
         dataframe['CheckM Score'] = [''] * dataframe.shape[0]
         dataframe_cols = list(dataframe.columns)
@@ -162,7 +167,6 @@ class ASMStatParser:
 
         self.curated_genome_frame.to_csv(self.source_dir + 'curated_genome_frame.csv', index=False)
 
-
     def create_curated_dir(self):
         if 'curated_genome_list.json' not in os.listdir(self.source_dir):
             self.curate_genomes()
@@ -170,7 +174,6 @@ class ASMStatParser:
         source_root = ''
         for x in self.source_dir.split('/')[:-4]:
             source_root += x + '/'
-
 
     def generate_plots(self):
         data = pd.read_csv(f'{self.source_dir}data_summ_equal.tsv', sep='\t')
