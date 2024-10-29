@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2023-09-26">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="partition" type="string" />
+      <attribute id="1" title="occurrence" type="long" />
+      <attribute id="2" title="name" type="string" />
+    </attributes>
+    <nodes>
+      <node id="KGENGAEB_01234" label="KGENGAEB_01234">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_01171" label="HLMLLCKC_01171">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="MEBKDNAM_01354" label="MEBKDNAM_01354">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="rapA_1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_01133" label="AHOIKHHK_01133">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="gnl|Prokka|gelc_01994" label="gnl|Prokka|gelc_01994">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="pal" />
+        </attvalues>
+      </node>
+      <node id="MEBKDNAM_01351" label="MEBKDNAM_01351">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="smc_5" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_01172" label="HLMLLCKC_01172">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="recD" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_01174" label="HLMLLCKC_01174">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="yclP" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_01173" label="HLMLLCKC_01173">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="yclQ" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_01233" label="KGENGAEB_01233">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="gabP_1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="KGENGAEB_01234" target="HLMLLCKC_01171" weight="3.0" />
+      <edge id="1" source="KGENGAEB_01234" target="KGENGAEB_01233" weight="1.6666666666666667" />
+      <edge id="2" source="HLMLLCKC_01171" target="HLMLLCKC_01171" weight="2.3333333333333335" />
+      <edge id="3" source="HLMLLCKC_01171" target="MEBKDNAM_01354" weight="3.0" />
+      <edge id="4" source="MEBKDNAM_01354" target="MEBKDNAM_01354" weight="2.6666666666666665" />
+      <edge id="5" source="MEBKDNAM_01354" target="AHOIKHHK_01133" weight="3.0" />
+      <edge id="6" source="AHOIKHHK_01133" target="gnl|Prokka|gelc_01994" weight="3.0" />
+      <edge id="7" source="gnl|Prokka|gelc_01994" target="MEBKDNAM_01351" weight="3.0" />
+      <edge id="8" source="MEBKDNAM_01351" target="MEBKDNAM_01351" weight="2.3333333333333335" />
+      <edge id="9" source="MEBKDNAM_01351" target="HLMLLCKC_01172" weight="3.0" />
+      <edge id="10" source="HLMLLCKC_01172" target="HLMLLCKC_01172" weight="2.6666666666666665" />
+      <edge id="11" source="HLMLLCKC_01172" target="HLMLLCKC_01173" weight="1.6666666666666667" />
+      <edge id="12" source="HLMLLCKC_01174" target="HLMLLCKC_01173" weight="1.6666666666666667" />
+    </edges>
+  </graph>
+</gexf>

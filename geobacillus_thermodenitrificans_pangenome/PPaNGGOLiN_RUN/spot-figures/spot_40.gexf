@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2023-09-26">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="partition" type="string" />
+      <attribute id="1" title="occurrence" type="long" />
+      <attribute id="2" title="name" type="string" />
+    </attributes>
+    <nodes>
+      <node id="gnl|Prokka|gelc_00930" label="gnl|Prokka|gelc_00930">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="gnl|Prokka|gelc_00931" label="gnl|Prokka|gelc_00931">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="glpP" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_00498" label="HLMLLCKC_00498">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="glpD" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_03443" label="FDKLAMFJ_03443">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="melR_1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_00068" label="FDKLAMFJ_00068">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_03445" label="FDKLAMFJ_03445">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="msmE_2" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_01674" label="FDKLAMFJ_01674">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="melD_2" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_01673" label="FDKLAMFJ_01673">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="melC_2" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_00497" label="HLMLLCKC_00497">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="agaA" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_00496" label="HLMLLCKC_00496">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_00495" label="HLMLLCKC_00495">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="galK" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_00009" label="NCBEONCI_00009">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="melC" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_00010" label="NCBEONCI_00010">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="melD" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_00011" label="NCBEONCI_00011">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="melE" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_00012" label="NCBEONCI_00012">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="melR_2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="gnl|Prokka|gelc_00930" target="gnl|Prokka|gelc_00931" weight="3.0" />
+      <edge id="1" source="gnl|Prokka|gelc_00931" target="HLMLLCKC_00498" weight="3.0" />
+      <edge id="2" source="HLMLLCKC_00498" target="FDKLAMFJ_03443" weight="2.5" />
+      <edge id="3" source="HLMLLCKC_00498" target="NCBEONCI_00012" weight="2.0" />
+      <edge id="4" source="FDKLAMFJ_03443" target="FDKLAMFJ_00068" weight="2.5" />
+      <edge id="5" source="FDKLAMFJ_00068" target="FDKLAMFJ_03445" weight="2.5" />
+      <edge id="6" source="FDKLAMFJ_03445" target="FDKLAMFJ_01674" weight="2.5" />
+      <edge id="7" source="FDKLAMFJ_01674" target="FDKLAMFJ_01673" weight="2.5" />
+      <edge id="8" source="FDKLAMFJ_01673" target="HLMLLCKC_00497" weight="2.5" />
+      <edge id="9" source="HLMLLCKC_00497" target="HLMLLCKC_00496" weight="3.0" />
+      <edge id="10" source="HLMLLCKC_00497" target="NCBEONCI_00009" weight="2.0" />
+      <edge id="11" source="HLMLLCKC_00496" target="HLMLLCKC_00495" weight="3.0" />
+      <edge id="12" source="NCBEONCI_00009" target="NCBEONCI_00010" weight="2.0" />
+      <edge id="13" source="NCBEONCI_00010" target="NCBEONCI_00011" weight="2.0" />
+      <edge id="14" source="NCBEONCI_00011" target="NCBEONCI_00012" weight="2.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2023-07-12">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="partition" type="string" />
+      <attribute id="1" title="occurrence" type="long" />
+      <attribute id="2" title="name" type="string" />
+    </attributes>
+    <nodes>
+      <node id="NCBEONCI_02891" label="NCBEONCI_02891">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_02892" label="NCBEONCI_02892">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="rapA_3" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_01800" label="KGENGAEB_01800">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_03357" label="FLBMOKII_03357">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02314" label="FDKLAMFJ_02314">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02315" label="FDKLAMFJ_02315">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_03353" label="FLBMOKII_03353">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02317" label="FDKLAMFJ_02317">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02318" label="FDKLAMFJ_02318">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02320" label="FDKLAMFJ_02320">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="brnQ" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_03355" label="FLBMOKII_03355">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02319" label="FDKLAMFJ_02319">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="NCBEONCI_02891" target="NCBEONCI_02892" weight="1.75" />
+      <edge id="1" source="NCBEONCI_02892" target="KGENGAEB_01800" weight="1.75" />
+      <edge id="2" source="KGENGAEB_01800" target="FLBMOKII_03357" weight="1.75" />
+      <edge id="3" source="FLBMOKII_03357" target="FDKLAMFJ_02314" weight="1.75" />
+      <edge id="4" source="FDKLAMFJ_02314" target="FDKLAMFJ_02315" weight="1.5" />
+      <edge id="5" source="FDKLAMFJ_02314" target="FLBMOKII_03355" weight="1.25" />
+      <edge id="6" source="FDKLAMFJ_02315" target="FLBMOKII_03353" weight="1.75" />
+      <edge id="7" source="FDKLAMFJ_02315" target="FLBMOKII_03355" weight="1.25" />
+      <edge id="8" source="FLBMOKII_03353" target="FDKLAMFJ_02317" weight="1.75" />
+      <edge id="9" source="FDKLAMFJ_02317" target="FDKLAMFJ_02318" weight="1.75" />
+      <edge id="10" source="FDKLAMFJ_02318" target="FDKLAMFJ_02320" weight="1.25" />
+      <edge id="11" source="FDKLAMFJ_02318" target="FDKLAMFJ_02319" weight="1.25" />
+    </edges>
+  </graph>
+</gexf>

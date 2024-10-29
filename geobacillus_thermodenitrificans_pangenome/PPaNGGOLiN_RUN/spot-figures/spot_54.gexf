@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2023-07-12">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="partition" type="string" />
+      <attribute id="1" title="occurrence" type="long" />
+      <attribute id="2" title="name" type="string" />
+    </attributes>
+    <nodes>
+      <node id="IJIGFOAD_00525" label="IJIGFOAD_00525">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="ygiD_2" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_03756" label="FDKLAMFJ_03756">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02750" label="AHOIKHHK_02750">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_00779" label="NCBEONCI_00779">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="ddpX" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_00778" label="NCBEONCI_00778">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_00777" label="NCBEONCI_00777">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_03258" label="IJIGFOAD_03258">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_00775" label="NCBEONCI_00775">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_00170" label="FLBMOKII_00170">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_01212" label="HLMLLCKC_01212">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_01211" label="HLMLLCKC_01211">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_01210" label="HLMLLCKC_01210">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_01209" label="HLMLLCKC_01209">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="mqo1" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_01208" label="HLMLLCKC_01208">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_01207" label="HLMLLCKC_01207">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="thiO_2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02748" label="AHOIKHHK_02748">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="rapA_1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02747" label="AHOIKHHK_02747">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_00654" label="FDKLAMFJ_00654">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02744" label="AHOIKHHK_02744">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_01427" label="FLBMOKII_01427">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_03013" label="FLBMOKII_03013">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_00915" label="FLBMOKII_00915">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_00914" label="FLBMOKII_00914">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_01433" label="FLBMOKII_01433">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="IJIGFOAD_00525" target="FDKLAMFJ_03756" weight="5.0" />
+      <edge id="1" source="FDKLAMFJ_03756" target="AHOIKHHK_02750" weight="5.0" />
+      <edge id="2" source="AHOIKHHK_02750" target="AHOIKHHK_02750" weight="5.0" />
+      <edge id="3" source="AHOIKHHK_02750" target="NCBEONCI_00779" weight="4.5" />
+      <edge id="4" source="AHOIKHHK_02750" target="AHOIKHHK_02748" weight="7.0" />
+      <edge id="5" source="NCBEONCI_00779" target="NCBEONCI_00778" weight="4.5" />
+      <edge id="6" source="NCBEONCI_00778" target="NCBEONCI_00777" weight="4.5" />
+      <edge id="7" source="NCBEONCI_00777" target="IJIGFOAD_03258" weight="4.5" />
+      <edge id="8" source="IJIGFOAD_03258" target="NCBEONCI_00775" weight="4.5" />
+      <edge id="9" source="IJIGFOAD_03258" target="FLBMOKII_01427" weight="7.0" />
+      <edge id="10" source="IJIGFOAD_03258" target="FLBMOKII_03013" weight="7.0" />
+      <edge id="11" source="NCBEONCI_00775" target="FLBMOKII_00170" weight="4.5" />
+      <edge id="12" source="FLBMOKII_00170" target="HLMLLCKC_01212" weight="5.0" />
+      <edge id="13" source="FLBMOKII_00170" target="FLBMOKII_01433" weight="7.0" />
+      <edge id="14" source="HLMLLCKC_01212" target="HLMLLCKC_01211" weight="5.0" />
+      <edge id="15" source="HLMLLCKC_01211" target="HLMLLCKC_01210" weight="5.0" />
+      <edge id="16" source="HLMLLCKC_01210" target="HLMLLCKC_01209" weight="5.0" />
+      <edge id="17" source="HLMLLCKC_01209" target="HLMLLCKC_01208" weight="5.0" />
+      <edge id="18" source="HLMLLCKC_01208" target="HLMLLCKC_01207" weight="5.0" />
+      <edge id="19" source="AHOIKHHK_02748" target="AHOIKHHK_02747" weight="7.0" />
+      <edge id="20" source="AHOIKHHK_02747" target="FDKLAMFJ_00654" weight="7.0" />
+      <edge id="21" source="FDKLAMFJ_00654" target="AHOIKHHK_02744" weight="7.0" />
+      <edge id="22" source="AHOIKHHK_02744" target="FLBMOKII_01427" weight="7.0" />
+      <edge id="23" source="FLBMOKII_03013" target="FLBMOKII_00915" weight="7.0" />
+      <edge id="24" source="FLBMOKII_00915" target="FLBMOKII_00914" weight="7.0" />
+      <edge id="25" source="FLBMOKII_00914" target="FLBMOKII_01433" weight="7.0" />
+    </edges>
+  </graph>
+</gexf>

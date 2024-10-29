@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+RSGAB02981:1-651     -            217 1491686at2           -            130     3e-41  138.1   0.0   1   1   1.3e-43   9.3e-41  136.6   0.0     1   130     1   183     1   183 0.86 RSGAB02981_1 # 1 # 651 # 1 # ID=523_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.505
+RSGAB02149:1-657     -            219 1491686at2           -            130    0.0055   14.4   0.1   1   2   5.5e-05     0.041   11.6   0.0     2    28    68    94    67   129 0.94 RSGAB02149_1 # 1 # 657 # 1 # ID=1972_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.411
+RSGAB02149:1-657     -            219 1491686at2           -            130    0.0055   14.4   0.1   2   2       0.2   1.5e+02    0.1   0.0    93   126   184   216   175   218 0.75 RSGAB02149_1 # 1 # 657 # 1 # ID=1972_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.411
+RSGAB03485:1-759     -            253 1491686at2           -            130    0.0066   14.1   0.2   1   2   6.8e-05      0.05   11.3   0.1     2    28   101   127   100   165 0.91 RSGAB03485_1 # 1 # 759 # 1 # ID=650_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.419
+RSGAB03485:1-759     -            253 1491686at2           -            130    0.0066   14.1   0.2   2   2      0.25   1.9e+02   -0.2   0.0    93   126   218   250   209   252 0.75 RSGAB03485_1 # 1 # 759 # 1 # ID=650_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.419
+RSGAB01743:1-762     -            254 1491686at2           -            130    0.0066   14.1   0.2   1   2   6.8e-05      0.05   11.3   0.1     2    28   102   128   101   166 0.91 RSGAB01743_1 # 1 # 762 # 1 # ID=1665_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.417
+RSGAB01743:1-762     -            254 1491686at2           -            130    0.0066   14.1   0.2   2   2      0.25   1.9e+02   -0.3   0.0    93   126   219   251   210   253 0.75 RSGAB01743_1 # 1 # 762 # 1 # ID=1665_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.417
+RSGAB02619:1-762     -            254 1491686at2           -            130    0.0066   14.1   0.2   1   2   6.8e-05      0.05   11.3   0.1     2    28   102   128   101   166 0.91 RSGAB02619_1 # 1 # 762 # 1 # ID=1512_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.417
+RSGAB02619:1-762     -            254 1491686at2           -            130    0.0066   14.1   0.2   2   2      0.25   1.9e+02   -0.3   0.0    93   126   219   251   210   253 0.75 RSGAB02619_1 # 1 # 762 # 1 # ID=1512_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.417
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/busco_downloads/lineages/bacteria_odb10/hmms/1491686at2.hmm
+# Target file:     BUSCO/cnambio1/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout BUSCO/cnambio1/run_bacteria_odb10/hmmer_output/1491686at2.out --cpu 1 /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta/busco_downloads/lineages/bacteria_odb10/hmms/1491686at2.hmm BUSCO/cnambio1/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/sbraganza/projects/geobacillus_pangenome/geobacillus_thermodenitrificans_pangenome/prepped_fasta
+# Date:            Fri Mar  8 07:38:33 2024
+# [ok]

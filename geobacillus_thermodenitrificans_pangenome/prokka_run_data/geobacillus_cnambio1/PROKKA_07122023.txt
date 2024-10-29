@@ -1,0 +1,4 @@
+organism: Geobacillus species strain 
+contigs: 3729
+bases: 3154014
+CDS: 14

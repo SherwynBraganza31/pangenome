@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2023-09-26">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="partition" type="string" />
+      <attribute id="1" title="occurrence" type="long" />
+      <attribute id="2" title="name" type="string" />
+    </attributes>
+    <nodes>
+      <node id="gnl|Prokka|gelc_01303" label="gnl|Prokka|gelc_01303">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="dsdA" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_02508" label="NCBEONCI_02508">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="maa" />
+        </attvalues>
+      </node>
+      <node id="MEBKDNAM_01930" label="MEBKDNAM_01930">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="kynB_2" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_02506" label="NCBEONCI_02506">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="gbh" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_02505" label="NCBEONCI_02505">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="norR_3" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_02504" label="NCBEONCI_02504">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="davT" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_01819" label="KGENGAEB_01819">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="putP_1" />
+        </attvalues>
+      </node>
+      <node id="gnl|Prokka|gelc_01308" label="gnl|Prokka|gelc_01308">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="gapN_2" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_03378" label="HLMLLCKC_03378">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="fabM" />
+        </attvalues>
+      </node>
+      <node id="HLMLLCKC_03377" label="HLMLLCKC_03377">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="araR_2" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_02060" label="FLBMOKII_02060">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="gnl|Prokka|gelc_01303" target="NCBEONCI_02508" weight="1.6" />
+      <edge id="1" source="NCBEONCI_02508" target="MEBKDNAM_01930" weight="1.6" />
+      <edge id="2" source="MEBKDNAM_01930" target="NCBEONCI_02506" weight="1.6" />
+      <edge id="3" source="NCBEONCI_02506" target="NCBEONCI_02505" weight="1.6" />
+      <edge id="4" source="NCBEONCI_02505" target="NCBEONCI_02504" weight="1.6" />
+      <edge id="5" source="NCBEONCI_02504" target="KGENGAEB_01819" weight="1.4" />
+      <edge id="6" source="NCBEONCI_02504" target="FLBMOKII_02060" weight="1.0" />
+      <edge id="7" source="KGENGAEB_01819" target="gnl|Prokka|gelc_01308" weight="1.6" />
+      <edge id="8" source="KGENGAEB_01819" target="FLBMOKII_02060" weight="1.0" />
+      <edge id="9" source="gnl|Prokka|gelc_01308" target="HLMLLCKC_03378" weight="1.6" />
+      <edge id="10" source="HLMLLCKC_03378" target="HLMLLCKC_03377" weight="1.6" />
+    </edges>
+  </graph>
+</gexf>

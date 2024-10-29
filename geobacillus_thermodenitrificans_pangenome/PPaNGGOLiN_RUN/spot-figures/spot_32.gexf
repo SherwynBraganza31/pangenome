@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2023-07-12">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="partition" type="string" />
+      <attribute id="1" title="occurrence" type="long" />
+      <attribute id="2" title="name" type="string" />
+    </attributes>
+    <nodes>
+      <node id="NCBEONCI_03189" label="NCBEONCI_03189">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="yviE" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02448" label="FDKLAMFJ_02448">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="fliW" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02702" label="AHOIKHHK_02702">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="csrA" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02450" label="FDKLAMFJ_02450">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02451" label="FDKLAMFJ_02451">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02452" label="FDKLAMFJ_02452">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_03185" label="NCBEONCI_03185">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="hag" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02454" label="FDKLAMFJ_02454">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02455" label="FDKLAMFJ_02455">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02456" label="FDKLAMFJ_02456">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="MEBKDNAM_03648" label="MEBKDNAM_03648">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02458" label="FDKLAMFJ_02458">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_02534" label="FLBMOKII_02534">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_03183" label="NCBEONCI_03183">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="yvyC" />
+        </attvalues>
+      </node>
+      <node id="MEBKDNAM_03202" label="MEBKDNAM_03202">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="fliD" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_03181" label="NCBEONCI_03181">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="fliS" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_03231" label="FLBMOKII_03231">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_03232" label="FLBMOKII_03232">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_03233" label="FLBMOKII_03233">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_03234" label="FLBMOKII_03234">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FLBMOKII_03235" label="FLBMOKII_03235">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="MEBKDNAM_00701" label="MEBKDNAM_00701">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_02057" label="FDKLAMFJ_02057">
+        <attvalues>
+          <attvalue for="0" value="shell" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02699" label="AHOIKHHK_02699">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="MEBKDNAM_03206" label="MEBKDNAM_03206">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="NCBEONCI_03189" target="FDKLAMFJ_02448" weight="5.5" />
+      <edge id="1" source="FDKLAMFJ_02448" target="AHOIKHHK_02702" weight="5.5" />
+      <edge id="2" source="AHOIKHHK_02702" target="FDKLAMFJ_02450" weight="5.5" />
+      <edge id="3" source="FDKLAMFJ_02450" target="FDKLAMFJ_02451" weight="5.0" />
+      <edge id="4" source="FDKLAMFJ_02450" target="MEBKDNAM_03206" weight="5.0" />
+      <edge id="5" source="FDKLAMFJ_02451" target="FDKLAMFJ_02452" weight="5.0" />
+      <edge id="6" source="FDKLAMFJ_02452" target="NCBEONCI_03185" weight="5.0" />
+      <edge id="7" source="NCBEONCI_03185" target="FDKLAMFJ_02454" weight="5.0" />
+      <edge id="8" source="FDKLAMFJ_02454" target="FDKLAMFJ_02455" weight="5.0" />
+      <edge id="9" source="FDKLAMFJ_02455" target="FDKLAMFJ_02456" weight="5.0" />
+      <edge id="10" source="FDKLAMFJ_02456" target="MEBKDNAM_03648" weight="5.0" />
+      <edge id="11" source="MEBKDNAM_03648" target="FDKLAMFJ_02458" weight="5.0" />
+      <edge id="12" source="FDKLAMFJ_02458" target="FLBMOKII_02534" weight="5.0" />
+      <edge id="13" source="FLBMOKII_02534" target="NCBEONCI_03183" weight="5.0" />
+      <edge id="14" source="NCBEONCI_03183" target="MEBKDNAM_03202" weight="5.5" />
+      <edge id="15" source="NCBEONCI_03183" target="FLBMOKII_03231" weight="5.0" />
+      <edge id="16" source="MEBKDNAM_03202" target="NCBEONCI_03181" weight="5.5" />
+      <edge id="17" source="FLBMOKII_03231" target="FLBMOKII_03232" weight="5.0" />
+      <edge id="18" source="FLBMOKII_03232" target="FLBMOKII_03233" weight="5.0" />
+      <edge id="19" source="FLBMOKII_03233" target="FLBMOKII_03234" weight="5.0" />
+      <edge id="20" source="FLBMOKII_03234" target="FLBMOKII_03235" weight="5.0" />
+      <edge id="21" source="FLBMOKII_03235" target="MEBKDNAM_00701" weight="5.0" />
+      <edge id="22" source="MEBKDNAM_00701" target="FDKLAMFJ_02057" weight="5.0" />
+      <edge id="23" source="FDKLAMFJ_02057" target="AHOIKHHK_02699" weight="5.0" />
+      <edge id="24" source="AHOIKHHK_02699" target="MEBKDNAM_03206" weight="5.0" />
+    </edges>
+  </graph>
+</gexf>

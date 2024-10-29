@@ -1,0 +1,724 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2023-07-12">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="partition" type="string" />
+      <attribute id="1" title="occurrence" type="long" />
+      <attribute id="2" title="name" type="string" />
+    </attributes>
+    <nodes>
+      <node id="FDKLAMFJ_03165" label="FDKLAMFJ_03165">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_03166" label="FDKLAMFJ_03166">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="comGA" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_03167" label="FDKLAMFJ_03167">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_00908" label="KGENGAEB_00908">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02291" label="IJIGFOAD_02291">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_00910" label="KGENGAEB_00910">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_00911" label="KGENGAEB_00911">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_00912" label="KGENGAEB_00912">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02890" label="IJIGFOAD_02890">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02891" label="IJIGFOAD_02891">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="spoVT_2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03530" label="AHOIKHHK_03530">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02893" label="IJIGFOAD_02893">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03529" label="AHOIKHHK_03529">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02895" label="IJIGFOAD_02895">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02896" label="IJIGFOAD_02896">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02897" label="IJIGFOAD_02897">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03350" label="KGENGAEB_03350">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="recT" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03349" label="KGENGAEB_03349">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03348" label="KGENGAEB_03348">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03363" label="KGENGAEB_03363">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02902" label="IJIGFOAD_02902">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_02552" label="NCBEONCI_02552">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02310" label="IJIGFOAD_02310">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02905" label="IJIGFOAD_02905">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02906" label="IJIGFOAD_02906">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02314" label="IJIGFOAD_02314">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02315" label="IJIGFOAD_02315">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02909" label="IJIGFOAD_02909">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03513" label="AHOIKHHK_03513">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02318" label="IJIGFOAD_02318">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02319" label="IJIGFOAD_02319">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02913" label="IJIGFOAD_02913">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02914" label="IJIGFOAD_02914">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03379" label="KGENGAEB_03379">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="MEBKDNAM_02962" label="MEBKDNAM_02962">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03336" label="KGENGAEB_03336">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03335" label="KGENGAEB_03335">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03334" label="KGENGAEB_03334">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03333" label="KGENGAEB_03333">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03332" label="KGENGAEB_03332">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03331" label="KGENGAEB_03331">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03330" label="KGENGAEB_03330">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02924" label="IJIGFOAD_02924">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02925" label="IJIGFOAD_02925">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02926" label="IJIGFOAD_02926">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03391" label="KGENGAEB_03391">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03499" label="AHOIKHHK_03499">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03498" label="AHOIKHHK_03498">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03497" label="AHOIKHHK_03497">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03496" label="AHOIKHHK_03496">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02335" label="IJIGFOAD_02335">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02933" label="IJIGFOAD_02933">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02934" label="IJIGFOAD_02934">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03492" label="AHOIKHHK_03492">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02340" label="IJIGFOAD_02340">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03490" label="AHOIKHHK_03490">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02938" label="IJIGFOAD_02938">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03294" label="KGENGAEB_03294">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03295" label="KGENGAEB_03295">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03296" label="KGENGAEB_03296">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03297" label="KGENGAEB_03297">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03298" label="KGENGAEB_03298">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03299" label="KGENGAEB_03299">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03300" label="KGENGAEB_03300">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03301" label="KGENGAEB_03301">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03302" label="KGENGAEB_03302">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03241" label="KGENGAEB_03241">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="cwlC" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03367" label="KGENGAEB_03367">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02950" label="IJIGFOAD_02950">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02951" label="IJIGFOAD_02951">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02952" label="IJIGFOAD_02952">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02953" label="IJIGFOAD_02953">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02954" label="IJIGFOAD_02954">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02955" label="IJIGFOAD_02955">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="comGC" />
+        </attvalues>
+      </node>
+      <node id="NCBEONCI_00317" label="NCBEONCI_00317">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="FDKLAMFJ_03170" label="FDKLAMFJ_03170">
+        <attvalues>
+          <attvalue for="0" value="persistent" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03477" label="AHOIKHHK_03477">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03478" label="AHOIKHHK_03478">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03479" label="AHOIKHHK_03479">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03481" label="AHOIKHHK_03481">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="IJIGFOAD_02350" label="IJIGFOAD_02350">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03239" label="KGENGAEB_03239">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03485" label="AHOIKHHK_03485">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03486" label="AHOIKHHK_03486">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03487" label="AHOIKHHK_03487">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03488" label="AHOIKHHK_03488">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03505" label="AHOIKHHK_03505">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="KGENGAEB_03377" label="KGENGAEB_03377">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03511" label="AHOIKHHK_03511">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_02938" label="AHOIKHHK_02938">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03516" label="AHOIKHHK_03516">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03517" label="AHOIKHHK_03517">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03518" label="AHOIKHHK_03518">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03519" label="AHOIKHHK_03519">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03520" label="AHOIKHHK_03520">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03524" label="AHOIKHHK_03524">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03526" label="AHOIKHHK_03526">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03527" label="AHOIKHHK_03527">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="AHOIKHHK_03528" label="AHOIKHHK_03528">
+        <attvalues>
+          <attvalue for="0" value="cloud" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="FDKLAMFJ_03165" target="FDKLAMFJ_03166" weight="35.5" />
+      <edge id="1" source="FDKLAMFJ_03166" target="FDKLAMFJ_03167" weight="35.5" />
+      <edge id="2" source="FDKLAMFJ_03167" target="KGENGAEB_00908" weight="35.5" />
+      <edge id="3" source="KGENGAEB_00908" target="IJIGFOAD_02291" weight="35.5" />
+      <edge id="4" source="IJIGFOAD_02291" target="KGENGAEB_00910" weight="35.5" />
+      <edge id="5" source="KGENGAEB_00910" target="KGENGAEB_00911" weight="35.5" />
+      <edge id="6" source="KGENGAEB_00911" target="KGENGAEB_00912" weight="35.5" />
+      <edge id="7" source="KGENGAEB_00912" target="IJIGFOAD_02890" weight="35.5" />
+      <edge id="8" source="IJIGFOAD_02890" target="IJIGFOAD_02891" weight="35.5" />
+      <edge id="9" source="IJIGFOAD_02891" target="AHOIKHHK_03530" weight="35.5" />
+      <edge id="10" source="AHOIKHHK_03530" target="IJIGFOAD_02893" weight="35.0" />
+      <edge id="11" source="AHOIKHHK_03530" target="AHOIKHHK_03529" weight="32.5" />
+      <edge id="12" source="IJIGFOAD_02893" target="AHOIKHHK_03529" weight="35.0" />
+      <edge id="13" source="AHOIKHHK_03529" target="IJIGFOAD_02895" weight="35.0" />
+      <edge id="14" source="AHOIKHHK_03529" target="AHOIKHHK_03528" weight="32.5" />
+      <edge id="15" source="IJIGFOAD_02895" target="IJIGFOAD_02896" weight="35.0" />
+      <edge id="16" source="IJIGFOAD_02896" target="IJIGFOAD_02897" weight="35.0" />
+      <edge id="17" source="IJIGFOAD_02897" target="KGENGAEB_03350" weight="35.0" />
+      <edge id="18" source="KGENGAEB_03350" target="KGENGAEB_03349" weight="35.0" />
+      <edge id="19" source="KGENGAEB_03349" target="KGENGAEB_03348" weight="35.0" />
+      <edge id="20" source="KGENGAEB_03349" target="AHOIKHHK_03524" weight="32.5" />
+      <edge id="21" source="KGENGAEB_03349" target="AHOIKHHK_03526" weight="32.5" />
+      <edge id="22" source="KGENGAEB_03348" target="KGENGAEB_03363" weight="35.5" />
+      <edge id="23" source="KGENGAEB_03348" target="AHOIKHHK_03524" weight="32.5" />
+      <edge id="24" source="KGENGAEB_03363" target="IJIGFOAD_02902" weight="35.5" />
+      <edge id="25" source="IJIGFOAD_02902" target="NCBEONCI_02552" weight="35.0" />
+      <edge id="26" source="IJIGFOAD_02902" target="AHOIKHHK_03520" weight="32.5" />
+      <edge id="27" source="NCBEONCI_02552" target="IJIGFOAD_02310" weight="35.0" />
+      <edge id="28" source="IJIGFOAD_02310" target="IJIGFOAD_02905" weight="35.0" />
+      <edge id="29" source="IJIGFOAD_02905" target="IJIGFOAD_02906" weight="35.0" />
+      <edge id="30" source="IJIGFOAD_02905" target="AHOIKHHK_02938" weight="32.5" />
+      <edge id="31" source="IJIGFOAD_02905" target="AHOIKHHK_03516" weight="32.5" />
+      <edge id="32" source="IJIGFOAD_02906" target="IJIGFOAD_02314" weight="35.0" />
+      <edge id="33" source="IJIGFOAD_02314" target="IJIGFOAD_02315" weight="35.0" />
+      <edge id="34" source="IJIGFOAD_02315" target="IJIGFOAD_02909" weight="35.0" />
+      <edge id="35" source="IJIGFOAD_02909" target="AHOIKHHK_03513" weight="35.0" />
+      <edge id="36" source="AHOIKHHK_03513" target="IJIGFOAD_02318" weight="35.5" />
+      <edge id="37" source="AHOIKHHK_03513" target="AHOIKHHK_02938" weight="32.5" />
+      <edge id="38" source="IJIGFOAD_02318" target="IJIGFOAD_02319" weight="35.0" />
+      <edge id="39" source="IJIGFOAD_02318" target="AHOIKHHK_03511" weight="32.5" />
+      <edge id="40" source="IJIGFOAD_02319" target="IJIGFOAD_02913" weight="35.0" />
+      <edge id="41" source="IJIGFOAD_02913" target="IJIGFOAD_02914" weight="35.5" />
+      <edge id="42" source="IJIGFOAD_02913" target="AHOIKHHK_03511" weight="32.5" />
+      <edge id="43" source="IJIGFOAD_02914" target="KGENGAEB_03379" weight="35.5" />
+      <edge id="44" source="KGENGAEB_03379" target="MEBKDNAM_02962" weight="35.5" />
+      <edge id="45" source="MEBKDNAM_02962" target="KGENGAEB_03336" weight="35.0" />
+      <edge id="46" source="MEBKDNAM_02962" target="KGENGAEB_03377" weight="32.5" />
+      <edge id="47" source="KGENGAEB_03336" target="KGENGAEB_03335" weight="35.0" />
+      <edge id="48" source="KGENGAEB_03335" target="KGENGAEB_03334" weight="35.0" />
+      <edge id="49" source="KGENGAEB_03334" target="KGENGAEB_03333" weight="35.0" />
+      <edge id="50" source="KGENGAEB_03333" target="KGENGAEB_03332" weight="35.0" />
+      <edge id="51" source="KGENGAEB_03332" target="KGENGAEB_03331" weight="35.0" />
+      <edge id="52" source="KGENGAEB_03331" target="KGENGAEB_03330" weight="35.0" />
+      <edge id="53" source="KGENGAEB_03330" target="IJIGFOAD_02924" weight="35.5" />
+      <edge id="54" source="KGENGAEB_03330" target="AHOIKHHK_03505" weight="32.5" />
+      <edge id="55" source="IJIGFOAD_02924" target="IJIGFOAD_02925" weight="35.5" />
+      <edge id="56" source="IJIGFOAD_02925" target="IJIGFOAD_02926" weight="35.5" />
+      <edge id="57" source="IJIGFOAD_02926" target="KGENGAEB_03391" weight="35.5" />
+      <edge id="58" source="KGENGAEB_03391" target="AHOIKHHK_03499" weight="35.5" />
+      <edge id="59" source="AHOIKHHK_03499" target="AHOIKHHK_03498" weight="35.5" />
+      <edge id="60" source="AHOIKHHK_03498" target="AHOIKHHK_03497" weight="35.5" />
+      <edge id="61" source="AHOIKHHK_03497" target="AHOIKHHK_03496" weight="35.5" />
+      <edge id="62" source="AHOIKHHK_03496" target="IJIGFOAD_02335" weight="35.5" />
+      <edge id="63" source="IJIGFOAD_02335" target="IJIGFOAD_02933" weight="35.5" />
+      <edge id="64" source="IJIGFOAD_02933" target="IJIGFOAD_02934" weight="35.5" />
+      <edge id="65" source="IJIGFOAD_02934" target="AHOIKHHK_03492" weight="35.5" />
+      <edge id="66" source="AHOIKHHK_03492" target="IJIGFOAD_02340" weight="35.5" />
+      <edge id="67" source="IJIGFOAD_02340" target="AHOIKHHK_03490" weight="35.5" />
+      <edge id="68" source="AHOIKHHK_03490" target="IJIGFOAD_02938" weight="35.5" />
+      <edge id="69" source="IJIGFOAD_02938" target="KGENGAEB_03294" weight="35.0" />
+      <edge id="70" source="IJIGFOAD_02938" target="AHOIKHHK_03488" weight="32.5" />
+      <edge id="71" source="KGENGAEB_03294" target="KGENGAEB_03295" weight="35.0" />
+      <edge id="72" source="KGENGAEB_03295" target="KGENGAEB_03296" weight="35.0" />
+      <edge id="73" source="KGENGAEB_03296" target="KGENGAEB_03297" weight="35.0" />
+      <edge id="74" source="KGENGAEB_03297" target="KGENGAEB_03298" weight="35.0" />
+      <edge id="75" source="KGENGAEB_03298" target="KGENGAEB_03299" weight="35.0" />
+      <edge id="76" source="KGENGAEB_03299" target="KGENGAEB_03300" weight="35.0" />
+      <edge id="77" source="KGENGAEB_03300" target="KGENGAEB_03301" weight="35.0" />
+      <edge id="78" source="KGENGAEB_03301" target="KGENGAEB_03302" weight="35.0" />
+      <edge id="79" source="KGENGAEB_03302" target="KGENGAEB_03241" weight="35.0" />
+      <edge id="80" source="KGENGAEB_03241" target="KGENGAEB_03367" weight="35.0" />
+      <edge id="81" source="KGENGAEB_03241" target="AHOIKHHK_03481" weight="32.5" />
+      <edge id="82" source="KGENGAEB_03241" target="IJIGFOAD_02350" weight="32.5" />
+      <edge id="83" source="KGENGAEB_03367" target="IJIGFOAD_02950" weight="35.0" />
+      <edge id="84" source="IJIGFOAD_02950" target="IJIGFOAD_02951" weight="35.0" />
+      <edge id="85" source="IJIGFOAD_02950" target="AHOIKHHK_03479" weight="32.5" />
+      <edge id="86" source="IJIGFOAD_02950" target="AHOIKHHK_03481" weight="32.5" />
+      <edge id="87" source="IJIGFOAD_02951" target="IJIGFOAD_02952" weight="35.5" />
+      <edge id="88" source="IJIGFOAD_02951" target="AHOIKHHK_03477" weight="32.5" />
+      <edge id="89" source="IJIGFOAD_02952" target="IJIGFOAD_02953" weight="35.5" />
+      <edge id="90" source="IJIGFOAD_02953" target="IJIGFOAD_02954" weight="35.5" />
+      <edge id="91" source="IJIGFOAD_02954" target="IJIGFOAD_02955" weight="35.5" />
+      <edge id="92" source="IJIGFOAD_02955" target="NCBEONCI_00317" weight="35.5" />
+      <edge id="93" source="NCBEONCI_00317" target="FDKLAMFJ_03170" weight="35.5" />
+      <edge id="94" source="AHOIKHHK_03477" target="AHOIKHHK_03478" weight="32.5" />
+      <edge id="95" source="AHOIKHHK_03478" target="AHOIKHHK_03479" weight="32.5" />
+      <edge id="96" source="IJIGFOAD_02350" target="KGENGAEB_03239" weight="32.5" />
+      <edge id="97" source="KGENGAEB_03239" target="AHOIKHHK_03485" weight="32.5" />
+      <edge id="98" source="AHOIKHHK_03485" target="AHOIKHHK_03486" weight="32.5" />
+      <edge id="99" source="AHOIKHHK_03486" target="AHOIKHHK_03487" weight="32.5" />
+      <edge id="100" source="AHOIKHHK_03487" target="AHOIKHHK_03488" weight="32.5" />
+      <edge id="101" source="AHOIKHHK_03505" target="KGENGAEB_03377" weight="32.5" />
+      <edge id="102" source="AHOIKHHK_03516" target="AHOIKHHK_03517" weight="32.5" />
+      <edge id="103" source="AHOIKHHK_03517" target="AHOIKHHK_03518" weight="32.5" />
+      <edge id="104" source="AHOIKHHK_03518" target="AHOIKHHK_03519" weight="32.5" />
+      <edge id="105" source="AHOIKHHK_03519" target="AHOIKHHK_03520" weight="32.5" />
+      <edge id="106" source="AHOIKHHK_03526" target="AHOIKHHK_03527" weight="32.5" />
+      <edge id="107" source="AHOIKHHK_03527" target="AHOIKHHK_03528" weight="32.5" />
+    </edges>
+  </graph>
+</gexf>
