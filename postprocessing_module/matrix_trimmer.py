@@ -17,9 +17,9 @@ class GeneParser:
     """
     def __init__(self, parent_path: str):
         self.parent_path = parent_path if parent_path[-1] == '/' else parent_path + '/'
-        self.ppan_dir = self.parent_path + '/ppanggolin_run/'
-        self.matrix_path = self.ppan_dir + '/matrix/matrix.csv'
-        self.parsed_genedata_path = self.ppan_dir + '/postprocessing_results/'
+        self.ppan_dir = self.parent_path + 'ppanggolin_run/'
+        self.matrix_path = self.ppan_dir + 'matrix/matrix.csv'
+        self.parsed_genedata_path = self.parent_path + 'postprocessing_results/'
         if not os.path.exists(self.parsed_genedata_path):
             os.mkdir(self.parsed_genedata_path)
         self.genes = None
@@ -126,7 +126,7 @@ class GeneParser:
 
         output = pd.concat([output]+return_val, axis=0, ignore_index=True)
         self.genes = output
-        self.linkUniProt()
+        self.linkUniProt(self.parsed_genedata_path)
 
         if self.genes.index.name is None:
             self.genes.set_index('Gene ID', inplace=True)
@@ -139,6 +139,7 @@ class GeneParser:
 
         Returns: None
         """
+        save_flag = False
         if self.genes is None:
             self.genes = pd.read_csv(self.parsed_genedata_path + 'genes.csv')
             save_flag = True
@@ -146,7 +147,7 @@ class GeneParser:
         if self.genes.index.name is None:
             self.genes.set_index('Gene ID', inplace=True)
 
-        uniprot_db = pd.read_csv(uniprot_path + '/gff_sequencing.csv')
+        uniprot_db = pd.read_csv(uniprot_path + 'gff_sequencing.csv')
         uniprot_db = uniprot_db[~uniprot_db['UniProtKB'].isna()].set_index('Gene ID')
         self.genes.drop(['UniProtKB'], axis='columns', inplace=True)
         self.genes = pd.concat([
@@ -192,7 +193,7 @@ class GeneParser:
         with open(self.parent_path + "/Gene_Ontology/uniprot_freqs.json", "w", encoding='utf-8') as file:
             json.dump(uniprot_freqs, file)
 
-    def generateUniProtFreqs(self):
+    def ProtFreqs(self):
         """
         columns = ['Gene ID', 'Organism', 'Gene Family', 'Genome ID', 'UniProtKB', 'Partition']
 
@@ -208,14 +209,14 @@ class GeneParser:
             else:
                 uniprots[matrix[row, 4]] += 1
 
-        with open(self.parent_dir + "/Gene_Ontology/uniprot_freqs.json", "w") as file:
+        with open(self.parent_path + "Gene_Ontology/uniprot_freqs.json", "w") as file:
             json.dump(uniprots, file)
 
 
 if __name__ == '__main__':
-    temp = GeneParser(parent_path="/home/sbraganza/projects/58genomes/",
-                      ppan_dir="/home/sbraganza/projects/58genomes/ppan_run",
-                      uniprot_path="/home/sbraganza/projects/58genomes/trimmed_matrix_files")
+    temp = GeneParser(parent_path="/home/sbraganza/projects/58genomes/")
+                      # ppan_dir="/home/sbraganza/projects/58genomes/ppan_run",
+                      # uniprot_path="/home/sbraganza/projects/58genomes/trimmed_matrix_files")
     temp.parseGenes_mp()
     # temp.linkUniProt(save_flag=True)
     # temp.splitProteins()

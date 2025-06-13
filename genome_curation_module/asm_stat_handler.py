@@ -4,6 +4,8 @@ import numpy as np
 import os
 from busco_handler import BuscoHandler
 import shutil
+import matplotlib as mpl
+import matplotlib.pyplot as plt
 
 
 class ASMStatParser:
@@ -162,8 +164,8 @@ class ASMStatParser:
         curated_list = self.curated_genome_frame.index.to_list()
 
         for x in os.listdir(self.working_dir):
-            if x in curated_list or x is "curated_genome_frame.csv" or x is "assembly_data_report.jsonl" \
-                or x is "linking_dict.json":
+            if (x in curated_list or x == "curated_genome_frame.csv" or x == "assembly_data_report.jsonl"
+                    or x == "linking_dict.json"):
                 shutil.copytree(self.working_dir + "/" + x, curated_dir_subpath + '/' + x)
 
     def convert_json_lines(self):
@@ -172,7 +174,61 @@ class ASMStatParser:
             json_list.append(json.loads(x))
         with open(self.working_dir + 'assembly_data_report.json', 'w') as ofile:
             json.dump(json_list, ofile)
-        
+
+    def plot_genome_stats(self):
+        with open(self.working_dir + 'linking_dict.json') as file:
+            uncurated_filenames = np.asarray(list(json.load(file).values()))
+
+        curated_genome_frame = pd.read_csv(self.source_dir + '58genomes/ncbi_dataset/data/curated_genome_frame.csv')
+        curated_filenames = curated_genome_frame['Filename'].to_numpy()
+
+        # splits the filenames into subspecies and returns assembly counts for each subspecies
+        def parse_filenames_to_species(genome_names):
+            subspecies = np.zeros(genome_names.shape).astype(str)
+            grab_species = np.vectorize(lambda x: x.split('_')[1] if (
+                        x.split('_')[1] != 'sp' and x.split('_')[1] != 'subsp') else 'no subspecies')
+            species_distr, counts = np.unique(grab_species(genome_names), return_counts=True)
+            counts = np.append(counts, [1, 1])
+
+            return species_distr, counts
+
+        uncurated_species, uncurated_counts = parse_filenames_to_species(uncurated_filenames)
+        curated_species, curated_counts = parse_filenames_to_species(curated_filenames)
+        mask = ~np.isin(uncurated_species, curated_species)
+        curated_species, curated_counts = (
+            np.hstack((curated_species, uncurated_species[mask])),
+            np.hstack((curated_counts, np.zeros(
+                shape=uncurated_species.shape[0] - curated_species.shape[0]))))
+
+        sort_idx = np.argsort(curated_species)
+        curated_species = curated_species[sort_idx]
+        curated_counts = curated_counts[sort_idx]
+
+        sort_idx = np.argsort(uncurated_species)
+        uncurated_species = uncurated_species[sort_idx]
+        uncurated_counts = uncurated_counts[sort_idx]
+
+        def get_random_colors(n):
+            colors = np.array(list(mpl.colors.CSS4_COLORS.values()))
+            return np.random.choice(colors, size=n, replace=False)
+
+        x = 6 * np.arange(len(uncurated_species))  # the label locations
+        bar_width = 4  # the width of the bars
+
+        fig, ax = plt.subplots(layout='constrained')
+
+        rects = ax.bar(x, curated_counts, bar_width, label='Curated Genomes', color='#440154FF')
+        ax.bar_label(rects, padding=3)
+        rects = ax.bar(x + bar_width, uncurated_counts, bar_width, label='Uncurated Genomes', color='#FDE725FF')
+        ax.bar_label(rects, padding=3)
+
+        # Add some text for labels, title and custom x-axis tick labels, etc.
+        ax.set_ylabel('# of Assemblies')
+        ax.set_title('Genome Asseblies Distribution')
+        ax.set_xticks(x + bar_width / 2, uncurated_species, rotation=45)
+
+        fig.savefig(self.source_dir + 'genome_distribution_sidebyside.jpeg', dpi=600)
+
 
 if __name__ == '__main__':
     temp = ASMStatParser(source_dir='/home/sbraganza/projects/171genomes/171genomes_ncbi/ncbi_dataset/data/')

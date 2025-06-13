@@ -3,15 +3,15 @@ import pandas as pd
 import os
 from tqdm.auto import tqdm
 import matplotlib.pyplot as plt
-import seaborn as sns
 import pandas as pd
 import numpy as np
+import seaborn as sns
 
 
 class GeneOntology:
-    def __init__(self, parent_dir: str, results_path: str = None):
-        self.parent_dir = parent_dir if parent_dir[-1] == '/' else parent_dir + '/'
-        self.results_path = results_path if results_path is not None else self.parent_dir + 'trimmed_matrix_files/'
+    def __init__(self, source_dir: str, results_path: str = None):
+        self.source_dir = source_dir if source_dir[-1] == '/' else source_dir + '/'
+        self.results_path = self.source_dir + 'postprocessing_results/'
         self.ecNumbers = None
         self.goIDs = None
         self.biological = None
@@ -113,7 +113,7 @@ class GeneOntology:
         data_labels = ['Biological Process', 'Cellular Function', 'Molecular Function']
         color_list = ['#cbe2e9', '#f1ffc4', '#ffcaaf']
 
-        fig_save_loc = self.parent_dir + 'gene_ontology_distribution.jpeg'
+        fig_save_loc = self.results_path + 'gene_ontology_distribution.jpeg'
 
         dataframes = [self.biological, self.cellular, self.molecular]
         for i, data in enumerate(dataframes):
@@ -128,8 +128,8 @@ class GeneOntology:
 
 
 if __name__ == '__main__':
-    parent_dir = input('Enter parent directory: ')
-    temp_obj = GeneOntology(parent_dir=parent_dir)
+    source_dir = input('Enter parent directory: ')
+    temp_obj = GeneOntology(source_dir=source_dir)
     temp_obj.process_go_ids()
     temp_obj.go_class_splitter()
     temp_obj.plotGeneOntology()

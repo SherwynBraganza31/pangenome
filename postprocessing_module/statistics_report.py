@@ -3,14 +3,15 @@ import numpy as np
 import tables
 import os
 import json
-import h5py
 
 
 class PostProcessing:
     def __init__(self, source_dir: str):
-        self.source_dir = source_dir
+        self.source_dir = source_dir if source_dir[-1] == '/' else source_dir + '/'
+        self.pangenome_dir = source_dir + 'ppanggolin_run/'
+        self.post_proc_results = self.source_dir + 'postprocessing_results/'
         try:
-            self.pangenome_filename = [x for x in os.listdir(self.source_dir) if '.h5' in x][0]
+            self.pangenome_filename = [x for x in os.listdir(self.pangenome_dir) if '.h5' in x][0]
         except IndexError:
             print('Directory provided does not contain a pangenome hdf5 file.')
             return
@@ -82,9 +83,9 @@ class PostProcessing:
                 }
             return info_dict
 
-        pangenome_data = tables.open_file(self.source_dir + self.pangenome_filename, driver="H5FD_CORE")
+        pangenome_data = tables.open_file(self.pangenome_dir + self.pangenome_filename, driver="H5FD_CORE")
         pangenome_info = create_info_dict(pangenome_data.root.info)
-        with open(self.source_dir + 'pangenome_stats.json', 'w') as json_ofile:
+        with open(self.post_proc_results + 'pangenome_stats.json', 'w') as json_ofile:
             json.dump(pangenome_info, json_ofile)
 
         for x in pangenome_info.keys():

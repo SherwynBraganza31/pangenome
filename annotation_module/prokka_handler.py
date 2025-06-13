@@ -2,6 +2,7 @@ import os
 import shutil
 import subprocess
 import time
+import multiprocess as mp
 
 
 class ProkkaHandler:
@@ -64,11 +65,15 @@ class ProkkaHandler:
 
         self.fasta_dir = fasta_dir
         self.fasta_files_list = os.listdir(self.fasta_dir)
-        self.ppandir = self.parent_dir + '/ppan_dataset'
+        self.ppandir = self.parent_dir + 'ppan_dataset'
 
-        self.createRunDataFolder()
-        self.executeProkkaCalls()
-        self.createPPaNdataset()
+        # self.createRunDataFolder()
+
+        # # self.executeProkkaCalls()
+        # self.executeProkkaCalls_mp()
+        # self.time_elapsed = end - start
+        #
+        # self.createPPaNdataset()
 
     def createRunDataFolder(self) -> None:
         """
@@ -106,7 +111,32 @@ class ProkkaHandler:
                            '--kingdom ' +
                            'Bacteria ' +
                            self.fasta_dir + filename +
-                           ' --force', shell=True)
+                           ' --force --cpus 8', shell=True, capture_output=True)
+
+    def executeProkkaCalls_mp(self):
+        file_count = len(self.fasta_files_list)
+        cpus = int(mp.cpu_count())
+        cpus = cpus if cpus > file_count else file_count
+        splits = [x * file_count // cpus for x in range(cpus)] + [file_count]
+
+        # functionize the prokka subprocess
+        def prokka_calls(filename_list):
+            for filename in filename_list:
+                print('Running prokka on ' + filename + ' ....')
+                subprocess.run('prokka ' +
+                               '--outdir ' +
+                               'prokka_run_data/' + filename[0:filename.index('.')] + '/' +
+                               ' --genus ' +
+                               'geobacillus ' +
+                               '--kingdom ' +
+                               'Bacteria ' +
+                               self.fasta_dir + filename +
+                               ' --force --cpus 1', shell=True, capture_output=True)
+
+                print('Done annotating ' + filename + '.')
+        # multiprocess call
+        with mp.Pool() as p:
+            return_val = p.map(prokka_calls, [self.fasta_files_list[splits[x]:splits[x+1]] for x in range(0, cpus)])
 
     def createPPaNdataset(self):
         """
@@ -132,6 +162,8 @@ class ProkkaHandler:
         #                       os.listdir('prokka_run_data/')[0])[0][0:-4]
 
         for folder in os.listdir('prokka_run_data/'):
+            if not os.path.isdir('prokka_run_data/'+ folder):
+                continue
             for file in os.listdir('prokka_run_data/' + folder + '/'):
                 if '.gff' in file:
                     shutil.copy(src='prokka_run_data/' + folder + '/' + file,
@@ -172,3 +204,6 @@ if __name__ == "__main__":
     parent_dir = input("Enter in the parent_dir: ")
     parent_dir = parent_dir if "/" == parent_dir[-1] else parent_dir + "/"
     temp = ProkkaHandler(parent_dir=parent_dir, fasta_dir=parent_dir + "prepped_fasta/")
+    temp.createRunDataFolder()
+    temp.executeProkkaCalls_mp()
+    temp.createPPaNdataset()

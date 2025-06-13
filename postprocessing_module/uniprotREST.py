@@ -264,7 +264,7 @@ class UniProtRESTHandler:
 
 if __name__ == "__main__":
     parent_path = input('Enter parent directory: ')
-    if parent_path[-1] is not '/':
+    if parent_path[-1] != '/':
         parent_path = parent_path + '/'
     with open(parent_path + "trimmed_matrix_files/" + "uniprot_freqs.json", "r", encoding='utf-8') as file:
         uniprots = json.load(file)

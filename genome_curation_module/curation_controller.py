@@ -12,6 +12,7 @@ class CurationController:
         curation_object.extract_checkM_stats()
         curation_object.curate_genomes()
         curation_object.create_curated_dir()
+        curation_object.plot_genome_stats()
         return
 
     def get_source_dir(self):

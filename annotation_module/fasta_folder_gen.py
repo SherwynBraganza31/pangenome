@@ -59,10 +59,11 @@ def generateFASTA(source: str, dest: str):
     if not os.path.exists(dest):
         os.mkdir(dest)
 
+    print('Creating FASTA files and directories ....', end='\n')
     with open(source + 'linking_dict.json') as ifile:
         linking_dict = json.load(ifile)
     createDSET(linking_dict, source, dest)
-
+    print('Done!', end='\n\n\n')
 
 if __name__ == '__main__':
     print('This module is designed to automatically rename and process the FASTA files'
