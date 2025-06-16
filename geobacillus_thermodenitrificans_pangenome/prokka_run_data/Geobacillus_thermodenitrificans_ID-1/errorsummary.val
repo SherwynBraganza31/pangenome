@@ -1,6 +1,0 @@
-     1 ERROR:   SEQ_FEAT.BadProteinName
-  5865 ERROR:   SEQ_FEAT.GeneXrefWithoutGene
-   115 ERROR:   SEQ_FEAT.InvalidInferenceValue
-     1 ERROR:   SEQ_FEAT.OnlyGeneXrefs
-     8 ERROR:   SEQ_FEAT.WrongQualOnImpFeat
-     6 WARNING: SEQ_FEAT.ProteinNameEndsInBracket

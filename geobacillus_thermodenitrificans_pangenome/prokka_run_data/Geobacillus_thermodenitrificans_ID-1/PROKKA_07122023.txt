@@ -1,7 +1,0 @@
-organism: Geobacillus species strain 
-contigs: 2
-bases: 3765962
-CDS: 3727
-CRISPR: 4
-tRNA: 88
-tmRNA: 1
