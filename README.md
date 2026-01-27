@@ -1,33 +1,33 @@
 Installation Instructions:
 
-1) Download pyenv
-   Linux Users:
-   Open up a terminal and type in each command
-   - Make sure apt is updated and install supporting libraries
-       sudo apt update
-       sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev git
+1) __Download pyenv__. <br/>
+   Linux Users:<br/>
+   Open up a terminal and type in each command<br/>
+   - Make sure apt is updated and install supporting libraries<br/>
+       sudo apt update<br/>
+       sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev git<br/>
 
-   - Download pyenv and install it
-     curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
-     echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-     echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-     echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-     exec "$SHELL"
+   - Download pyenv and install it<br/>
+     curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash<br/>
+     echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc<br/>
+     echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc<br/>
+     echo 'eval "$(pyenv init -)"' >> ~/.bashrc<br/>
+     exec "$SHELL"<br/>
 
-  2) Download the repository.
-     Option 1: Download this repository as a zip file and unzip it.
-     Option 2: Enter this command into a terminal : git clone https://github.com/SherwynBraganza31/pangenome.git
+  2) __Download the repository__.<br/>
+     Option 1: Download this repository as a zip file and unzip it.<br/>
+     Option 2: Enter this command into a terminal : git clone https://github.com/SherwynBraganza31/pangenome.git<br/>
      
-  3) Create a virtual environment named 'pangenome' to run the tool:
-     Open a terminal and type in the following commands:
-     pyenv install 3.8.0
-     pyenv virtualenv 3.8.0 pangenome
+  3) __Create a virtual environment named 'pangenome' to run the tool:__ <br/>
+     Open a terminal and type in the following commands:<br/>
+     pyenv install 3.8.0<br/>
+     pyenv virtualenv 3.8.0 pangenome<br/>
 
-  4) Activate and install the software requirements:
-     pyenv activate pangenome
-     pip install -r requirements.txt
+  4) __Activate and install the software requirements:__ <br/>
+     pyenv activate pangenome<br/>
+     pip install -r requirements.txt<br/>
 
-  5) Running the software:
-     python controller.py
-     ** Prompts you for the parent directory which is the unzipped directory downloaded from NCBI datasets.
-     ** It should contain the subdirectory 'ncbi_dataset'. Thats how you know its the right one. 
+  5) __Running the software:__ <br/>
+     python controller.py<br/>
+     ** Prompts you for the parent directory which is the unzipped directory downloaded from NCBI datasets.<br/>
+     ** It should contain the subdirectory 'ncbi_dataset'. Thats how you know its the right one. <br/>
