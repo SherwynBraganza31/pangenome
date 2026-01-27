@@ -16,7 +16,7 @@ Installation Instructions:
 
   2) __Download the repository__.<br/>
      Option 1: Download this repository as a zip file and unzip it.<br/>
-     Option 2: Enter this command into a terminal : git clone https://github.com/SherwynBraganza31/pangenome.git<br/>
+     Option 2: Enter this command into a terminal : git clone https://github.com/SherwynBraganza31/pangenome.git <br/>
      
   3) __Create a virtual environment named 'pangenome' to run the tool:__ <br/>
      Open a terminal and type in the following commands:<br/>
