@@ -1,3 +1,6 @@
+Compatibility:
+Any Linux based system able to run python 3.8 and above.
+
 Installation Instructions:
 
 1) __Download pyenv__. <br/>
@@ -25,9 +28,20 @@ Installation Instructions:
 
   4) __Activate and install the software requirements:__ <br/>
      pyenv activate pangenome<br/>
+     sudo apt install mmseqs2 infernal aragorn mafft <br/>
+     wget https://gitlab.com/ezlab/busco/-/archive/5.6.0/busco-5.6.0.tar <br/>
+     tar -xvf busco-5.6.0.tar <br/>
+     cd busco-5.6.0 <br/>
+     pip install . <br/>
+     cd .. <br/>
+     git clone -b 2.2.0 https://github.com/labgem/PPanGGOLiN.git <br/>
+     cd PPanGGOLiN <br/>
+     pip install . <br/>
+     cd .. <br/>
      pip install -r requirements.txt<br/>
+     
 
-  5) __Running the software:__ <br/>
+  6) __Running the software:__ <br/>
      python controller.py<br/>
      ** Prompts you for the parent directory which is the unzipped directory downloaded from NCBI datasets.<br/>
      ** It should contain the subdirectory 'ncbi_dataset'. Thats how you know its the right one. <br/>
