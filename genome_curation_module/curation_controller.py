@@ -8,8 +8,8 @@ class CurationController:
         self.check_source_dir()
 
         curation_object = ASMStatParser(source_dir=self.source_dir)
-        # curation_object.get_busco_scores()
-        # print('\n\nExtracting CheckM Stats\n\n')
+        curation_object.get_busco_scores()
+        print('\n\nExtracting CheckM Stats\n\n')
         curation_object.extract_checkM_stats()
         print('\n\nCurating Genomes\n\n')
         curation_object.curate_genomes()
